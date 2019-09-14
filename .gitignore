@@ -1,0 +1,8 @@
+*.opendb
+*.sdf
+.vs/
+*.opensdf
+*.ncb
+*.aps
+*/Release/*
+Release/*
