@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <cstdio>
 #include <iostream>
 #include <conio.h>
 
@@ -8,6 +8,7 @@ int Lab1() {
 
 	double x, y;
 
+	cout << "Task 1"<<endl;
 	cout << "Enter X: ";
 	cin >> x;
 
@@ -21,9 +22,9 @@ int Lab1() {
 		y = 1.0 / (x*x + 5);
 	}
 
-
 	cout << "F(x)= " << y << endl;
 
+	cout << "Task 2" << endl;
 	cout << "Enter X: ";
 	cin >> x;
 	cout << "Enter Y: ";
