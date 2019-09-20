@@ -5,7 +5,12 @@
 using namespace std;
 
 int Lab1() {
-
+	
+	/*Вариант 13
+	*		{0			,x<0
+	* f(x)=	{x^2+5		,0<=x<=2
+	*		{1/(x^2 +5)	,x>2
+	*/
 	double x, y;
 
 	cout << "Task 1"<<endl;
@@ -23,7 +28,11 @@ int Lab1() {
 	}
 
 	cout << "F(x)= " << y << endl;
-
+	/*
+	*
+	*Квадрат, центр в (0,0), грани по x=+-1 y=+-1
+	*
+	*/
 	cout << "Task 2" << endl;
 	cout << "Enter X: ";
 	cin >> x;
@@ -36,8 +45,6 @@ int Lab1() {
 	else {
 		cout << "Point ( " << x << " ; " << y << " ) is outside the area" << endl;
 	}
-
-	_getch();
 
 	return 0;
 }
