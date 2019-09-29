@@ -5,6 +5,7 @@
 #include "lab1.h"
 #include "lab2.h"
 #include "lab3.h"
+#include "lab4.h"
 
 using namespace std;
 
@@ -19,6 +20,7 @@ int main() {
 		case 1: Lab1(); break;
 		case 2: Lab2(); break;
 		case 3: Lab3(); break;
+		case 4: Lab4(); break;
 		default: {
 			cout << "Missing lab with no " << no;
 		}
@@ -26,7 +28,7 @@ int main() {
 	}
 
 
-
+	cout << endl << "Press any key to exit..." << endl;
 	_getch();
 	return 0;
 }
