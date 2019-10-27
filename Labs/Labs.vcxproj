@@ -23,6 +23,7 @@
     <ClCompile Include="lab2.cpp" />
     <ClCompile Include="lab3.cpp" />
     <ClCompile Include="lab4.cpp" />
+    <ClCompile Include="lab5.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -30,6 +31,7 @@
     <ClInclude Include="lab2.h" />
     <ClInclude Include="lab3.h" />
     <ClInclude Include="lab4.h" />
+    <ClInclude Include="lab5.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{76C98A26-E33C-4B5B-B629-6F5011584330}</ProjectGuid>
