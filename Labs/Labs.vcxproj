@@ -20,18 +20,28 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="lab1.cpp" />
+    <ClCompile Include="lab10.cpp" />
     <ClCompile Include="lab2.cpp" />
     <ClCompile Include="lab3.cpp" />
     <ClCompile Include="lab4.cpp" />
     <ClCompile Include="lab5.cpp" />
+    <ClCompile Include="lab6.cpp" />
+    <ClCompile Include="lab7.cpp" />
+    <ClCompile Include="lab8.cpp" />
+    <ClCompile Include="lab9.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="lab10.h" />
+    <ClInclude Include="lab6.h" />
     <ClInclude Include="lab1.h" />
     <ClInclude Include="lab2.h" />
     <ClInclude Include="lab3.h" />
     <ClInclude Include="lab4.h" />
     <ClInclude Include="lab5.h" />
+    <ClInclude Include="lab7.h" />
+    <ClInclude Include="lab8.h" />
+    <ClInclude Include="lab9.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{76C98A26-E33C-4B5B-B629-6F5011584330}</ProjectGuid>
