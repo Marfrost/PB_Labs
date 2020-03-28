@@ -16,7 +16,7 @@ int Lab7() {
 	cout << "Enter n: ";
 	cin >> n;
 	int** matrix = new int* [n];
-	
+
 	for (int i = 0; i < n; i++)
 	{
 		matrix[i] = new int[n];
@@ -49,7 +49,7 @@ int Lab7() {
 }
 
 void sortMatrix(int** matrix, int n) {
-	int* inLineMatrix = (int*)malloc(n * n );
+	int* inLineMatrix = (int*)malloc(n * n);
 
 	for (int i = 0; i < n; i++)
 	{
@@ -89,7 +89,7 @@ void sortArray(int* array, int n) {
 	for (int i = 0; i < n; i++) {
 		for (int j = n - 1; j > i; j--)
 		{
-			if (array[j] > array[j - 1]) {
+			if (array[j] < array[j - 1]) {
 				//swap
 				swap(array[j], array[j - 1]);
 
@@ -98,10 +98,11 @@ void sortArray(int* array, int n) {
 	}
 }
 int findLastPositiveRow(int** matrix, int n) {
-	for (int i = n - 1; i >= 0; i++) {
+	for (int i = n - 1; i >= 0; i--) {
 		for (int j = 0; j < n; j++)
 		{
-			if (matrix[i][j] < 0) {
+			int a = *(*(matrix+i)+j);
+			if (a < 0) {
 				break;
 			}
 

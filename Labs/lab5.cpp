@@ -32,6 +32,7 @@ int DotProduct(int* vector1, int* vector2, int l) {
 }
 
 int GetMin(int* vector, int l) {
+
 	int min = vector[0];
 
 	for (int i = 1; i < l; i++)
