@@ -106,4 +106,3 @@ int Lab5() {
 
 
 	return 0;
-}
