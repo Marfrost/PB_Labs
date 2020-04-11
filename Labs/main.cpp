@@ -41,6 +41,7 @@ int main() {
 		case 6: Lab6(); break;
 		case 7: Lab7(); break;
 		case 8: Lab8(); break;
+		case 9: Lab9(); break;
 		defalt: {
 			cout << "Missing lab with no " << lab << " for semester " << semester;
 		}
