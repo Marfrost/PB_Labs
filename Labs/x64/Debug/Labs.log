@@ -1,1 +1,18 @@
-﻿
+﻿  lab1.cpp
+  lab10.cpp
+  lab2.cpp
+  lab3.cpp
+  lab4.cpp
+  lab5.cpp
+  lab6.cpp
+C:\Users\vovik\Documents\Универ\Прога\Лабы\Labs\lab6.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  lab7.cpp
+C:\Users\vovik\Documents\Универ\Прога\Лабы\Labs\lab7.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  lab8.cpp
+  lab9.cpp
+C:\Users\vovik\Documents\Универ\Прога\Лабы\Labs\lab9.cpp(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\vovik\Documents\Универ\Прога\Лабы\Labs\lab9.cpp(10,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  main.cpp
+C:\Users\vovik\Documents\Универ\Прога\Лабы\Labs\main.cpp(37,9): warning C4102: 'defalt': unreferenced label
+  Generating Code...
+  Labs.vcxproj -> C:\Users\vovik\Documents\Универ\Прога\Лабы\x64\Debug\Labs.exe
