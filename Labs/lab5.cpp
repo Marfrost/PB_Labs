@@ -75,11 +75,11 @@ int Lab5() {
 	int m;
 
 	cout << "Enter size of v1, v2, v3: ";
-	cin >> m  ;
+	cin >> m;
 
 	int* arrays[] = { GetArray(m, "v1"), GetArray(m, "v2"),GetArray(m, "v3") };
 
-	int minValues[] = { 
+	int minValues[] = {
 		GetMin(arrays[0], m),
 		GetMin(arrays[1], m),
 		GetMin(arrays[2], m)
@@ -91,11 +91,11 @@ int Lab5() {
 
 	for (int i = 0; i < 3; i++)
 	{
-		cout << "Min of v" << (i + 1) << ": " << minValues[i]<<endl;
+		cout << "Min of v" << (i + 1) << ": " << minValues[i] << endl;
 	}
 
-	cout << "Min of min value vector: v" << ((vectorIndexes[0]) + 1)<<endl;
-	cout << "Max of min value vector: v" << (vectorIndexes[1] + 1)<<endl;
+	cout << "Min of min value vector: v" << ((vectorIndexes[0]) + 1) << endl;
+	cout << "Max of min value vector: v" << (vectorIndexes[1] + 1) << endl;
 
 	cout << "Vectors dot product: " << product;
 
@@ -106,3 +106,4 @@ int Lab5() {
 
 
 	return 0;
+}

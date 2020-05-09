@@ -26,7 +26,7 @@ int Lab7() {
 			cin >> matrix[i][j];
 		}
 	}
-
+	 
 	sortMatrix(matrix, n);
 
 	cout << "Modified matrix: " << endl;
@@ -80,6 +80,22 @@ void sortMatrix(int** matrix, int n) {
 		}
 	}
 
+
+
+}
+
+int findMin(int** matrix, int n) {
+	
+	int min = INT16_MAX;
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n-i -1; j++) {
+			if (matrix[i][j] < min) {
+				min = matrix[i][j];
+			}
+		}
+	}
+
+	return min;
 
 
 }

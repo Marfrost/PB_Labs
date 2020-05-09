@@ -2,16 +2,7 @@
 #include "stdio.h"
 #include <conio.h>
 
-#include "lab1.h"
-#include "lab2.h"
-#include "lab3.h"
-#include "lab4.h"
-#include "lab5.h"
-#include "lab6.h"
-#include "lab7.h"
-#include "lab8.h"
-#include "lab9.h"
-#include "lab10.h"
+#include "headers.h"
 
 using namespace std;
 
@@ -42,6 +33,7 @@ int main() {
 		case 7: Lab7(); break;
 		case 8: Lab8(); break;
 		case 9: Lab9(); break;
+		case 10: Lab10(); break;
 		defalt: {
 			cout << "Missing lab with no " << lab << " for semester " << semester;
 		}

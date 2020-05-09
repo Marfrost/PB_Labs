@@ -1,5 +1,5 @@
-John Smith;97;19;148;
-Phillip Adams;66;16;102;
+John Smith;97;10;148;
+Phillip Adams;66;10;102;
 Martin Robinson;87;22;225;
 Ernest Powell;91;11;100;
 Carl Ross;80;12;172

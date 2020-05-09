@@ -1,0 +1,11 @@
+#pragma once
+int Lab1();
+int Lab2();
+int Lab3();
+int Lab4();
+int Lab5();
+int Lab6();
+int Lab7();
+int Lab8();
+int Lab9();
+int Lab10();

@@ -10,11 +10,14 @@
 #include <fstream>;
 #include <string>
 using namespace std;
+
+
 struct DriverReport {
 	char* name="";
 	int distance=0;
 	int fuelConsumed=0;
 	int profit=0;
+
 	bool parse(char* in) {
 		// Establish string and get the first token:
 		char* nextToken;
@@ -48,11 +51,12 @@ int Lab9() {
 		return 0;
 	}
 	char* s=new char[1000];
-	char* maxProfitName=nullptr;
-	char* minFuelName=nullptr;
+	char* maxProfitName=new char[1000];
+	char* minFuelName= new char[1000];
+	
 	int maxProfit=0, minFuel=INT16_MAX;
 	cout << "Driver`s name	Distance, km	Fuel consumed, l	Money got,$" << endl;
-	while (!file.eof() && file.getline(s, 100)) {
+	while (!file.eof() && file.getline(s, 1000)) {
 
 
 		DriverReport report;
@@ -62,17 +66,14 @@ int Lab9() {
 		};
 		printf("%-25s\t%4d\t%4d\t%4d\n", report.name, report.distance, report.fuelConsumed, report.profit);
 
-
 		if (report.fuelConsumed < minFuel) {
 			minFuel = report.fuelConsumed;
-			minFuelName = report.name;
-
+			strcpy_s(minFuelName, 1000, report.name);
 		}
 		if (report.profit > maxProfit) {
 			maxProfit = report.profit;
-			maxProfitName= report.name;
+			strcpy_s(maxProfitName, 1000, report.name);
 		}
-
 	}
 	cout<<"Driver`s name	minimum fuel consumed, l"<<endl;
 	printf("%-25s\t%4d", minFuelName, minFuel);
@@ -81,7 +82,6 @@ int Lab9() {
 	printf("%-25s\t%4d", maxProfitName, maxProfit);
 
 	file.close();
-	delete s;
 
 
 	return 0;

@@ -5,7 +5,7 @@
 using namespace std;
 
 int Lab2() {
-	//Вариант 20
+	//Р’Р°СЂС–Р°РЅС‚ 20
 
 
 	double an;
